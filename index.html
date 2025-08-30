@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/index.css">
     <title>Tell Me Something..</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <!-- Navigation Bar-Header -->
+    <nav class="nav-bar">
+        <ul class="nav-bar__placeholder">
+            <li class="nav-bar__item">
+                <h1 class="nav-bar__txt">Tell Me Something..</h1>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <!-- Tabs -->
+        <ul class="tab-menu">
+            <li class="tab-menu__item">
+                <button type="button" class="tab-menu__button">
+                    Messages
+                </button>
+            </li>
+            <li class="tab-menu__item">
+                <button type="button" class="tab-menu__button">
+                    Message Me
+                </button>
+            </li>
+            <li class="tab-menu__item">
+                <button type="button" class="tab-menu__button">
+                 About Me
+                </button>
+            </li>
+        </ul>
+
+        <!-- Panels -->
+         <section class="tab-panel">
+            <h2>Message</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione a porro numquam dolorem optio veniam aut, 
+                nihil adipisci ducimus explicabo minus fugiat nisi hic sequi repudiandae modi, dolorum fugit eius?</p>
+         </section>
+
+         <section class="tab-panel">
+            <h2>Message Me</h2>
+            <textarea name="user-message" class="tab-panel__text-area" placeholder="Input your message here.."></textarea>
+         </section>
+
+         <section class="tab-panel">
+            <h2>About Me</h2>
+            <p>Will add information here soon. About me....</p>
+         </section>
+    </div>
 </body>
 </html>
