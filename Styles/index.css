@@ -1,10 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
 body {
-
+    font-family: "Pixelify Sans", sans-serif;
+    overscroll-behavior: none;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-bar__logo {
-    height: 100px;
-    width: auto;
-    display: block;
+ul li {
+    list-style-type: none;
+}
+
+.nav-bar__placeholder{
+    margin: 0;
+    padding: 0 50px;
+}
+
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-bar__txt {
+    font-size: 55px;
+}
+
+.content {
+    margin: 0px 100px;
+}
+
+.tab-menu {
+    display: flex;
+    
+    gap: 10px;
 }
