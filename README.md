@@ -7,4 +7,4 @@ A personal, anonymous messaging web application. This project is a space for me 
 
 * Anonymous Submissions: Users can send messages without revealing their identity.
 
-* Secure & Private: Messages are visible only to me, ensuring complete privacy.
+* Secure & Private: Messages are visible only to the developer, ensuring complete privacy.
