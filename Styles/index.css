@@ -11,19 +11,22 @@ ul li {
     list-style-type: none;
 }
 
-.nav-bar__placeholder{
-    margin: 0;
-    padding: 0 50px;
-}
-
-.nav-bar ul{
+.nav-bar {
+    background: #989898;
+    color: #fff;
+    position: sticky;
     display: flex;
     align-items: center;
-    gap: 10px;
+}
+
+.nav-bar__placeholder{
+    margin: 0;
+    padding: 10px 0 10px 0;
 }
 
 .nav-bar__txt {
     font-size: 55px;
+    margin: 0 40px;
 }
 
 .content {
