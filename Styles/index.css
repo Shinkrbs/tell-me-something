@@ -40,13 +40,38 @@ a {
 }
 
 .nav-bar__placeholder{
-    margin: 0;
+    display: flex;
+    margin:  0 50px;
     padding: 10px 0 10px 0;
 }
 
+/* Animation Text Nav-Bar */
 .nav-bar__txt {
+    /* Text Styles */
     font-size: 55px;
-    margin: 0 40px;
+    margin: 0; 
+    letter-spacing: .20em;
+    
+    /* Animation Styles */
+    display: inline-block;
+    overflow: hidden;
+    border-right: .12em solid grey;
+    white-space: nowrap;
+    animation: 
+        typing 4.5s steps(20, end) forwards,
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: grey; }
 }
 
 /* Tab and Panels */
